@@ -1,4 +1,6 @@
-
+/**
+ * "Value Metaprogramming", section 23.1.1 of "C++ Templates" (2nd ed.)
+ */
 
 constexpr bool is_prime(unsigned int val) {
   for (unsigned int d=2; d<=val/2; ++d) {
